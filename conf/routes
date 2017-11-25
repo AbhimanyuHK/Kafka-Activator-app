@@ -1,0 +1,10 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# An example controller showing a sample home page
+GET     /                           controllers.HomePage.homePage
+
+# An example controller showing how to use producer 
+GET     /producer                      controllers.KafkaProducers.kafkaProducer(topic: String, message: String)
+

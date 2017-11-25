@@ -1,0 +1,12 @@
+Kafka Play application
+=================================
+
+This file will be packaged with your application when using `activator dist`.
+
+Controllers
+===========
+
+- HomeController.java:
+
+  Shows how to handle simple HTTP requests.
+
