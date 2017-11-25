@@ -10,3 +10,13 @@ Controllers
 
   Shows how to handle simple HTTP requests.
 
+Run Application
+===============
+
+user@Kafka-Activator-app $ activator testProd
+
+Produce message
+===============
+
+http://localhost:9000/producer?topic="topic name "&message="new message"
+
